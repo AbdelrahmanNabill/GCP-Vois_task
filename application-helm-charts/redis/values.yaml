@@ -1,0 +1,7 @@
+appName: "backend-service"
+appReplicas: 3
+containerName: python-app-container
+containerPort: 6379
+appImage: redis  
+serviceType: ClusterIP
+servicePort: 6379
